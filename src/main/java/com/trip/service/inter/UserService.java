@@ -1,11 +1,11 @@
 package com.trip.service.inter;
 
-import javax.servlet.http.HttpServletRequest;
-
 import com.trip.util.Result;
 import com.trip.vo.FollowVo;
 import com.trip.vo.UserVo;
 import com.trip.vo.searchVo;
+
+import javax.servlet.http.HttpServletRequest;
 
 public interface UserService {
 	//注册

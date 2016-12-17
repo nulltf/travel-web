@@ -1,7 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="884751f0-ea92-40bd-8531-d4810b2aab97" name="Default" comment="" />
+    <list default="true" id="884751f0-ea92-40bd-8531-d4810b2aab97" name="Default" comment="修正接口">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/css/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/css/follower.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/css/foot.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/css/head.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/css/home.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/css/homePage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/css/reg.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/follow/follow_camera.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/16_info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/658X280-2xs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/690-60-0815-auto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/690-60-3-xs-0926-.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/690x60-2xs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/Female.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/Male.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/accountright.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/albumright.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/articleright.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/autoclub-0908-690x60.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/ay-0812-658-280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/ay.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/biaoshi.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/blog.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/bodybg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/bottom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/collapsed_no.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/cq-690-60-0928.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/detail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/dssd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/edit_profile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/error.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/foldersmall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/friendright.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/friends.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/fzcg_dh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/gangting_ico.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/gift.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/group.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/homeleft.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/illus_friends.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/illus_specialfriends.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/invite.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/inviteright.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/jiaru.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/lshp-1015-690x60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/m-0814-260_60.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/m-0822-690-60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/m-0924-260.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/mb-260-60-1008.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/mb-658-280-1008.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/mb-690-60-1008.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/message.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/msg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/myfootright.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/new-logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/nts.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/online.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/photo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/photoright.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/popup_plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/profileleft.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/qc-0928-260x60_20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/qc-1015-260-60.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/regbtn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/register.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/requests.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/rj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/sddsds.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/selfright.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/share.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/sou.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/ssss.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/star.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/status.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/tanhao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/top.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/top1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/top2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/toupiao.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/ts-690-60-1008.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/wall_post.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/wy-658-280-0904.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/xnw.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/xnw2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/front/xnw3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/photos/c1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/photos/c2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/photos/c3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/photos/f1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/photos/f2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/photos/main.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/photos/t1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/photos/t2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/photos/t3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/photos/t4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/0000.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/02.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/03.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/04.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/05.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/06.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/07.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/08.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/09.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/admin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u19.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/gdut/userhead/u9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/head.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index/camera.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index/comment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index/index_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index/index_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index/index_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index/index_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index/input.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index/love.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index/loved.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index/reply.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/index_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/input_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/img/login_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/js/ajaxupload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/js/jquery-1.3.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/js/jquery-1.4.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/resource/js/jquery.sysop.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/controller/BlogController.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/controller/BlogController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/controller/CityController.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/controller/CityController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/controller/FileController.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/controller/FileController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/controller/HomepageController.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/controller/HomepageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/controller/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/controller/ProvinceController.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/controller/ProvinceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/controller/RegisterController.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/controller/RegisterController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/dao/SqlMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/dao/SqlMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/dao/inter/BlogDao.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/dao/inter/BlogDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/dao/inter/CityDao.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/dao/inter/CityDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/dao/inter/ProvinceDao.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/dao/inter/ProvinceDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/dao/inter/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/dao/inter/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/interceptor/AuthInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/interceptor/AuthInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/BaseService.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/BaseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/BlogServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/BlogServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/CityServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/CityServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/FileServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/FileServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/LoginServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/LoginServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/ProvinceServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/ProvinceServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/inter/BlogService.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/inter/BlogService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/inter/CityService.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/inter/CityService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/inter/FileService.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/inter/FileService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/inter/LoginService.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/inter/LoginService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/inter/ProvinceService.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/inter/ProvinceService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/service/inter/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/service/inter/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/util/FileUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/util/FileUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/util/MethodResourceDesc.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/util/MethodResourceDesc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/util/Result.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/util/Result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/util/ResultCode.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/util/ResultCode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/util/SysConst.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/util/SysConst.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/util/TimeUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/util/TimeUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/util/annotation/HandlerMethodExceptionResolver.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/util/annotation/HandlerMethodExceptionResolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/BaseSearchVO.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/BaseSearchVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/BlogSearchVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/BlogSearchVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/BlogVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/BlogVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/CitySearchVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/CitySearchVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/CommentVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/CommentVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/CountVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/CountVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/FollowVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/FollowVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/FollowerVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/FollowerVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/LikeitVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/LikeitVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/ProvinceVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/ProvinceVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/Test011.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/Test011.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/UserVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/UserVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/trip/vo/searchVo.class" afterPath="$PROJECT_DIR$/target/classes/com/trip/vo/searchVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_caches_mybatis_ehcache_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_caches_mybatis_ehcache_1_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_6_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_snmp4j_snmp4j_1_10_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_snmp4j_snmp4j_1_10_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_0_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/controller/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/controller/BlogController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/controller/CityController.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/controller/CityController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/controller/FileController.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/controller/FileController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/controller/HomepageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/controller/HomepageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/controller/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/controller/ProvinceController.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/controller/ProvinceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/dao/inter/BlogDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/dao/inter/BlogDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/dao/inter/CityDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/dao/inter/CityDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/dao/inter/ProvinceDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/dao/inter/ProvinceDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/dao/inter/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/dao/inter/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/interceptor/AuthInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/interceptor/AuthInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/service/BlogServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/service/BlogServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/service/CityServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/service/CityServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/service/FileServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/service/FileServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/service/LoginServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/service/LoginServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/service/ProvinceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/service/ProvinceServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/service/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/service/inter/BlogService.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/service/inter/BlogService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/service/inter/FileService.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/service/inter/FileService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/service/inter/LoginService.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/service/inter/LoginService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/service/inter/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/service/inter/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/util/FileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/util/FileUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/trip/util/annotation/HandlerMethodExceptionResolver.java" afterPath="$PROJECT_DIR$/src/main/java/com/trip/util/annotation/HandlerMethodExceptionResolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-suc-db.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-suc-db.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/suc-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/suc-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/editInfo.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/editInfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/fans.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/fans.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/follower.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/follower.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/homepage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/homepage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/public/foot.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/public/foot.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/public/head.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/public/head.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/applicationContext-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/applicationContext-suc-db.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext-suc-db.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/suc-servlet.xml" afterPath="$PROJECT_DIR$/target/classes/suc-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travel-web.iml" afterPath="$PROJECT_DIR$/travel-web.iml" />
+    </list>
     <ignored path="travel-web.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,18 +321,93 @@
     <favorites_list name="travel-web" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2943">
-              <caret line="160" column="25" lean-forward="false" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
+            <state relative-caret-position="162">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/CityController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/FileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomepageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/HomepageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProvinceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/ProvinceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/RegisterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -42,6 +418,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trip/controller/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -54,8 +433,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/Program Files/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="E:\Program Files\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="mavenHome" value="E:/Program Files/Java/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\Program Files\Java\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -85,7 +464,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -113,18 +492,120 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trip" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="E:/Program Files/Git/bin/git.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="Maven.trip">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -364,6 +845,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -507,6 +989,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -564,15 +1052,16 @@
       <updated>1481876159103</updated>
       <workItem from="1481876161027" duration="617000" />
       <workItem from="1481948235713" duration="1856000" />
-      <workItem from="1481953234252" duration="2494000" />
+      <workItem from="1481953234252" duration="5326000" />
+      <workItem from="1481969543971" duration="2738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4967000" />
+    <option name="totallyTimeSpent" value="10537000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -583,21 +1072,23 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25403818" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15712188" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -605,7 +1096,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,6 +1112,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修正接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正接口" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -631,13 +1125,247 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2943">
-          <caret line="160" column="25" lean-forward="false" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/CityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="296" column="31" lean-forward="false" selection-start-line="296" selection-start-column="31" selection-end-line="296" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/service/BlogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="46" column="76" lean-forward="false" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-suc-db.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="82" column="82" lean-forward="true" selection-start-line="82" selection-start-column="82" selection-end-line="82" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/CityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/HomepageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/ProvinceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/trip/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>travel-web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>bootstrap</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>travel-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ page language="java" pageEncoding="utf-8"%>
  <link rel="stylesheet" type="text/css" href="/resource/css/common.css"/>
 <link rel="stylesheet" href="/resource/css/head.css" type="text/css"></link>
 <script>

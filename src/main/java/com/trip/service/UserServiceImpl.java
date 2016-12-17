@@ -1,16 +1,5 @@
 package com.trip.service;
 
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.trip.dao.inter.UserDao;
 import com.trip.service.inter.UserService;
 import com.trip.util.Result;
@@ -20,6 +9,15 @@ import com.trip.vo.FollowVo;
 import com.trip.vo.FollowerVo;
 import com.trip.vo.UserVo;
 import com.trip.vo.searchVo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 @Service
 public class UserServiceImpl extends BaseService implements UserService {
 	@Autowired

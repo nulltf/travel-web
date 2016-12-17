@@ -1,13 +1,9 @@
 package com.trip.service.inter;
 
-import javax.servlet.http.HttpServletRequest;
-
 import com.trip.util.Result;
-import com.trip.vo.BlogSearchVo;
-import com.trip.vo.BlogVo;
-import com.trip.vo.CommentVo;
-import com.trip.vo.LikeitVo;
-import com.trip.vo.UserVo;
+import com.trip.vo.*;
+
+import javax.servlet.http.HttpServletRequest;
 
 public interface BlogService {
 	

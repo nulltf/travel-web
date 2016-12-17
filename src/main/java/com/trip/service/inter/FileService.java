@@ -1,8 +1,8 @@
 package com.trip.service.inter;
 
-import java.io.InputStream;
-
 import com.trip.util.Result;
+
+import java.io.InputStream;
 
 
 public interface FileService {

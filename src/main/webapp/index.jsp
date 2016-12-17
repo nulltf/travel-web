@@ -1,6 +1,6 @@
 <%@page import="com.trip.util.SysConst"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
-	pageEncoding="utf-8" import="com.trip.vo.*"%>
+	pageEncoding="utf-8" import="com.trip.vo.UserVo"%>
 <%
 	UserVo vo = (UserVo) session.getAttribute(SysConst.CurrentUser);
 %>
@@ -294,7 +294,7 @@ function issue(){
 	}
 	param = param+'&photo='+photoUrl;
 	param = param.substring(1);
-	$.getJSON('/trip/user/addBolg.do',param,function(json){
+	$.getJSON('/trip/user/addBlog.do',param,function(json){
 		location.href='/trip/user/index.jspx';
 	});
 	

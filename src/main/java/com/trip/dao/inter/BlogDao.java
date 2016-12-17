@@ -1,15 +1,10 @@
 package com.trip.dao.inter;
 
-import java.util.List;
-
+import com.trip.dao.SqlMapper;
+import com.trip.vo.*;
 import org.springframework.stereotype.Repository;
 
-import com.trip.dao.SqlMapper;
-import com.trip.vo.BlogSearchVo;
-import com.trip.vo.BlogVo;
-import com.trip.vo.CommentVo;
-import com.trip.vo.LikeitVo;
-import com.trip.vo.UserVo;
+import java.util.List;
 @Repository("blogDao")
 public interface BlogDao extends SqlMapper {
 	

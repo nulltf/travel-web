@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
-	pageEncoding="utf-8" import="com.trip.vo.* , com.trip.util.SysConst"%>
+	pageEncoding="utf-8" import="com.trip.util.SysConst , com.trip.vo.UserVo"%>
 <%
 	UserVo vo = (UserVo) session.getAttribute(SysConst.CurrentUser);
 %>

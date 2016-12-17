@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-    <%@page import="com.trip.util.SysConst ,com.trip.vo.*"%>
+    <%@page import="com.trip.util.SysConst ,com.trip.vo.UserVo"%>
     <% UserVo vo = (UserVo)session.getAttribute(SysConst.CurrentUser);%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>

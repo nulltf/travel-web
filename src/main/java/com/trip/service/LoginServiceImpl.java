@@ -1,17 +1,16 @@
 package com.trip.service;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.trip.dao.inter.UserDao;
 import com.trip.service.inter.LoginService;
 import com.trip.util.Result;
 import com.trip.util.ResultCode;
 import com.trip.util.SysConst;
 import com.trip.vo.UserVo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 @Service
 public class LoginServiceImpl extends BaseService implements LoginService {
 

@@ -1,7 +1,8 @@
 package com.trip.controller;
 
-import javax.servlet.http.HttpServletRequest;
-
+import com.trip.service.inter.LoginService;
+import com.trip.util.Result;
+import com.trip.vo.UserVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
@@ -9,9 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.trip.service.inter.LoginService;
-import com.trip.util.Result;
-import com.trip.vo.UserVo;
+import javax.servlet.http.HttpServletRequest;
 @Controller
 @Scope("prototype")
 public class LoginController {

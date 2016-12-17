@@ -1,17 +1,16 @@
 package com.trip.service;
 
-import java.io.File;
-import java.io.InputStream;
-import java.util.Date;
-import java.util.UUID;
-
-import org.springframework.stereotype.Service;
-
 import com.trip.service.inter.FileService;
 import com.trip.util.FileUtil;
 import com.trip.util.Result;
 import com.trip.util.ResultCode;
 import com.trip.util.TimeUtil;
+import org.springframework.stereotype.Service;
+
+import java.io.File;
+import java.io.InputStream;
+import java.util.Date;
+import java.util.UUID;
 @Service
 public class FileServiceImpl extends BaseService implements FileService {
 

@@ -1,14 +1,13 @@
 package com.trip.dao.inter;
 
-import java.util.List;
-
-import org.springframework.stereotype.Repository;
-
 import com.trip.dao.SqlMapper;
 import com.trip.vo.FollowVo;
 import com.trip.vo.FollowerVo;
 import com.trip.vo.UserVo;
 import com.trip.vo.searchVo;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 
 @Repository("userDao")

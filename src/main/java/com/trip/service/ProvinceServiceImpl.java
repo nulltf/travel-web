@@ -1,11 +1,10 @@
 package com.trip.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.trip.dao.inter.ProvinceDao;
 import com.trip.service.inter.ProvinceService;
 import com.trip.util.Result;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 @Service
 public class ProvinceServiceImpl implements ProvinceService {
     @Autowired
