@@ -1,0 +1,68 @@
+body{
+	
+	font-size: 12px;
+	margin:0 auto;
+}
+a:link,a:visited,a:active {
+	color:#3B5888;
+	text-decoration: none;
+}
+a:hover{
+	color: #3B5888;
+	text-decoration: underline;
+}
+/*灰色，12px 粗体*/
+.font1{
+color: #808080;
+font-weight: bold;
+line-height: 20px;
+}
+.font2{
+font-weight: bold;
+}
+.font3{
+	/*18px 华文细黑*/
+
+font-size: 20px;
+font-weight: bold;
+font-family: "华文新魏";
+
+	
+}
+/*浅灰,12px;*/
+.font4{
+font-size:12px;
+color: #808080;
+line-height: 12px;
+}
+.font6{
+	color: #808080;
+}
+.font7{
+font-size: 18px;
+font-family:微软雅黑;
+font-weight: bold;
+}
+.font8{
+font-size: 18px;
+font-family:微软雅黑;
+font-weight: bold;
+color: #3B5888;
+}
+/*加粗,黑色*/
+.font9{
+font-weight: bold;
+}
+.divSch {
+	background-color: white;
+	border-style: solid;
+	position: absolute;
+	top: 430;
+	left: 400;
+	border-color: #D8DFEA;
+	border-width: 12px;
+	font-size: 12px;
+	
+	
+}
+

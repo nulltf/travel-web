@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- "namespace" must be the path of interface, or show error “is not known 
+	to the MapperRegistry” when launch -->
+<mapper namespace="com.trip.dao.inter.UserDao">
+	<select id="checkUser" resultType="UserVo">
+		<![CDATA[select * from user ]]>
+		<where>
+			<![CDATA[AND userAccount=#{userAccount}]]>
+			<![CDATA[AND password=#{password}]]>
+		</where>
+	</select>
+
+	<insert id="register" parameterType="UserVo" flushCache="true">
+		<![CDATA[
+		insert into user set
+		mobileNum=#{mobileNum}, 
+		userAccount=#{userAccount}, 
+		userName=#{userName}, 
+		password=#{password}, 
+		province=#{province}, 
+		city=#{city}, 
+		email=#{email}, 
+		loginFirst=#{loginFirst}, 
+		photoUrl=#{photoUrl}, 
+		age=#{age}, 
+		university=#{university}, 
+		company=#{company},
+		sex=#{sex}
+		]]>
+	</insert>
+
+	<update id="upload_head" parameterType="UserVo" flushCache="true">
+		<![CDATA[update user set photoUrl=#{photoUrl}]]>
+		<where>
+			<![CDATA[id=#{id}]]>
+		</where>
+	</update>
+
+	<select id="blogCount" parameterType="int" resultType="int">
+	<![CDATA[select count(*) from blog]]>
+		<where>
+	<![CDATA[userid = #{id}]]>
+		</where>
+	</select>
+
+	<select id="followerCount" parameterType="int" resultType="int">
+	<![CDATA[select count(*) from friendrel]]>
+		<where>
+	<![CDATA[fans = #{id}]]>
+		</where>
+	</select>
+
+	<select id="fansCount" parameterType="int" resultType="int">
+	<![CDATA[select count(*) from friendrel]]>
+		<where>
+	<![CDATA[follower = #{id}]]>
+		</where>
+	</select>
+
+	<select id="listFollower" parameterType="int" resultType="FollowerVo">
+	<![CDATA[select * from user]]>
+		<where>
+	<![CDATA[user.id in(select follower from friendrel where fans=#{id})]]>
+		</where>
+
+	</select>
+
+
+	<select id="listFans" parameterType="int" resultType="FollowerVo">
+	<![CDATA[select * from user]]>
+		<where>
+	<![CDATA[user.id in(select fans from friendrel where follower=#{id})]]>
+		</where>
+
+	</select>
+
+	<select id="getPersonById" parameterType="int" resultType="UserVo">
+	<![CDATA[select *from user]]>
+		<where>
+	<![CDATA[id=#{id}]]>
+		</where>
+
+	</select>
+
+	<update id="editInfo" parameterType="UserVo" flushCache="true">
+	<![CDATA[update user set userName=#{userName},
+	mobileNum=#{mobileNum},
+	sex=#{sex},
+	province=#{province},
+	city=#{city},
+	company=#{company},
+	university=#{university},
+	email =#{email}]]>
+		<where>
+	<![CDATA[id=#{id}]]>
+		</where>
+	</update>
+
+	<select id="searchUser" parameterType="searchVo" resultType="UserVo">
+	<![CDATA[select u.*,(select count(*) from friendrel where fans = u.id ) as followCount, 
+	(select count(*) from friendrel where follower = u.id ) as fansCount,
+	(select count(*) from blog where userid = u.id ) as blogCount,
+	(select count(*) from friendrel where follower = u.id and fans=#{userid} ) as friendship
+	from user u]]>
+		<where>
+	<![CDATA[userAccount like CONCAT(CONCAT('%', #{content}),'%')]]>
+		</where>
+	<![CDATA[ LIMIT 0,5]]>
+	</select>
+
+	<insert id="addFollow" parameterType="FollowVo" flushCache="true">
+	<![CDATA[
+	insert into friendrel set
+	follower=#{follower}, 
+	fans=#{fans}, 
+	friendTime=#{date_}
+	]]>
+	</insert>
+
+	<delete id="deletefollowOrFans" parameterType="FollowVo"
+		flushCache="true"> 
+	<![CDATA[
+	delete from  friendrel where
+	follower=#{follower} and  
+	fans=#{fans}
+	]]>
+	</delete>
+
+	<select id="checkUserIsExit" parameterType="String" resultType="int">
+	<![CDATA[
+	select count(*) from user where userAccount=#{userAccount}
+	]]>
+	</select>
+</mapper>

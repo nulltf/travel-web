@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+<struts> 
+<!-- 指定spring接管action -->
+<constant name="struts.objectFactory" value="spring"/>
+
+<!-- 匹配所有的action请求由struts处理 -->
+<constant name="struts.action.extension" value="action"/>
+
+<!-- 配置文件改动后是否的重新加载 -->
+<constant name="struts.configuration.xml.reload" value="true"/>
+
+<!-- 是否开启开发模式（开发时为true，生成环境为false） -->
+<constant name="struts.devMode" value="true"/>
+
+<!-- 每次http请求系统时都重新加载资源文件，开发时为true，发布到生产环境的时候为false-->
+<constant name="struts.i18n.reload" value="true"/>
+
+ <!-- 编码方式 -->
+ <constant name="struts.i18n.encoding" value="utf-8"/>
+ 
+ <!-- 动态调用方法 支持叹号方法-->
+ <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+<!--  
+ <package name="testPackage" namespace = "/test" extends = "struts-default">
+ <action name="testAction" class = "test">
+ <result>/index.html</result>
+ </action>
+ </package>
+ -->
+ 
+ <package name="testpackage" extends = "struts-default">
+ <interceptors>
+<interceptor name = "login" class = "com.trip.interceptor.LoginInterceptor"/>
+<interceptor-stack name="mydefault">    
+	<interceptor-ref name="login" />    
+	<interceptor-ref name="defaultStack" />           
+</interceptor-stack>    
+ </interceptors>
+ 
+ </package>
+ 
+
+
+ </struts>

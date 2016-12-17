@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- "namespace" must be the path of interface, or show error “is not known 
+	to the MapperRegistry” when launch -->
+<mapper namespace="com.trip.dao.inter.ProvinceDao">
+	<select id="listAllProvince" resultType="String" useCache="false">
+<![CDATA[select name from province]]>
+		order by name asc
+	</select>
+
+</mapper>

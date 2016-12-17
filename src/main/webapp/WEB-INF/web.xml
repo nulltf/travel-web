@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4"
+		xmlns="http://java.sun.com/xml/ns/j2ee"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+<!-- 加载指定的资源文件 -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			classpath*:/applicationContext-suc-db.xml,
+			classpath*:/applicationContext-mvc.xml,
+		</param-value>
+	</context-param>
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+	<servlet>
+		<servlet-name>suc</servlet-name>
+		<servlet-class>
+			org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath*:/suc-servlet.xml</param-value>
+		</init-param>
+	<init-param>
+	<!-- 默认情况下，spring会初始化很多异常解析器，如果想让spring使用我们自定义的异常解析器，就需要加上这个参数。取消spring的默认设置 -->
+	<param-name>
+				detectAllHandlerExceptionResolvers</param-name>
+	<param-value>false</param-value>
+	</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>suc</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>suc</servlet-name>
+		<url-pattern>*.jspx</url-pattern>
+	</servlet-mapping>
+<!--
+<listener>
+<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+</listener>
+<servlet>
+<servlet-name>suc</servlet-name>
+<servlet-class>
+org.springframework.web.servlet.DispatcherServlet
+</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath*:/suc-servlet.xml</param-value>
+		</init-param>
+	<init-param>  -->
+	<!-- 默认情况下，spring会初始化很多异常解析器，如果想让spring使用我们自定义的异常解析器，就需要加上这个参数。取消spring的默认设置 -->
+	<!--      <param-name>detectAllHandlerExceptionResolvers</param-name>
+	<param-value>false</param-value>
+	</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+-->
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

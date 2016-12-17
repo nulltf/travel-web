@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- "namespace" must be the path of interface, or show error “is not known 
+	to the MapperRegistry” when launch -->
+<mapper namespace="com.trip.dao.inter.BlogDao">
+	<insert id="insert" parameterType="BlogVo" flushCache="true">
+		<![CDATA[
+		insert into blog set 
+		content=#{content},
+		photo=#{photo},
+		userid=#{userid},
+		createtime=#{createtime},
+		city=#{city},
+		province=#{province}
+		
+		]]>
+
+
+	</insert>
+
+	<select id="list" parameterType="int" resultType="BlogVo"
+		useCache="false">
+		<![CDATA[select blog.* ,user.photoUrl ,user.userAccount,(select count(*) from comment c where c.blogid = blog.id ) as commentcount,(select count(*) from likeit c where c.blogid = blog.id ) as likecount ,(select count(*) from likeit c where c.blogid = blog.id and c.userid = #{id} ) as done from blog,user ]]>
+		<where>
+			<![CDATA[
+				(userid in ((select follower from friendrel where fans=#{id} )) or userid=#{id})
+			]]>
+			<![CDATA[AND blog.userid=user.id]]>
+		</where>
+			<![CDATA[order by createTime desc]]>
+			<![CDATA[ LIMIT #{start} , #{size}  ]]>
+	</select>
+
+	<select id="listSelfBlog" parameterType="int" resultType="BlogVo"
+		useCache="false">
+<![CDATA[select blog.* ,user.photoUrl ,user.userAccount,(select count(*) from comment c where c.blogid = blog.id ) as commentcount ,(select count(*) from likeit c where c.blogid = blog.id ) as likecount ,(select count(*) from likeit c where c.blogid = blog.id and c.userid = #{id} ) as done from blog,user ]]>
+		<where>
+<![CDATA[
+userid = #{id}
+]]>
+<![CDATA[AND blog.userid=user.id]]>
+		</where>
+<![CDATA[order by createTime desc]]>
+<![CDATA[ LIMIT #{start} , #{size}  ]]>
+	</select>
+
+	<insert id="insertComment" parameterType="CommentVo" flushCache="true"> 
+<![CDATA[
+insert into comment set 
+content=#{content},
+userId=#{userId},
+blogId=#{blogId},
+createTime=#{createTime},
+replyblogid=#{replyblogid}
+
+]]>
+
+	</insert>
+
+	<select id="listComment" parameterType="int" resultType="CommentVo"
+		useCache="false">
+<![CDATA[select c.* ,u.userAccount,u.photoUrl  from comment c ,user u ]]>
+		<where>
+<![CDATA[c.userId=u.id and  c.blogId=#{blogId} and c.state=0 ]]>
+		</where>
+<![CDATA[order by createTime desc]]>
+	</select>
+
+
+	<select id="searchblog" parameterType="BlogSearchVo" resultType="BlogVo"
+		useCache="false">
+<![CDATA[select blog.* ,user.photoUrl ,user.userAccount,(select count(*) from comment c where c.blogid = blog.id ) as commentcount,(select count(*) from likeit c where c.blogid = blog.id ) as likecount ,(select count(*) from likeit c where c.blogid = blog.id and c.userid = #{id} ) as done from blog,user ]]>
+		<where>
+<![CDATA[ blog.content like CONCAT(CONCAT('%', #{content}),'%')]]>
+<![CDATA[AND blog.userid=user.id]]>
+		</where>
+<![CDATA[order by createTime desc]]>
+<![CDATA[ LIMIT #{start} , #{size}  ]]>
+	</select>
+
+
+	<insert id="addlikeit" parameterType="LikeitVo" flushCache="true"> 
+<![CDATA[
+insert into likeit set 
+userid=#{userId},
+blogid=#{blogid}
+]]>
+
+	</insert>
+
+	<delete id="deletelikeit">
+<![CDATA[
+delete from likeit where 
+userid=#{userId} and 
+blogid=#{blogid}
+]]>
+	</delete>
+
+	<select id="checklikeit" parameterType="LikeitVo" resultType="int">
+<![CDATA[
+select count(*) from likeit where 
+userid=#{userId} and
+blogid=#{blogid}
+]]>
+	</select>
+</mapper>

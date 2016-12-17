@@ -1,0 +1,68 @@
+.reg_main{
+	
+	width: 1000px;
+	height: 650px;
+	margin: 0 auto;
+	margin-top: 3px;
+	
+	
+}
+.play{
+	width: 270px;
+	float:left;
+	
+	
+	
+}
+.reg_table1{
+width: 727px;
+margin-left: 3px;
+
+/*height: 700px;*/
+float: left;
+}
+.tab_td1{
+	width: 110px;
+text-align: right;
+font-size: 12px;
+font-weight: bold;
+color: #808080;
+padding-right: 10px;/*”“ÃÓ≥‰*/
+	
+}
+.button1{
+	font-weight:bold;
+	background-color: #24a0b8;
+	width: 113px;
+	height: 35px;
+	border: 0px;
+	color: #FFFFEA;}
+	
+.stu_spe{
+display: none;
+}
+.work_spe{
+display:table-row;
+}
+
+.head{
+	height:45px;
+	width:100%;
+	background:#ffffff;
+	border-bottom: 1px solid #d5d5d5;
+}
+table{
+	margin: 0 auto;
+}
+.head_span{
+	display:block;
+	line-height:45px;
+	width:150px;
+	height:45px;
+	float :right;
+	margin-right: 148px;
+	text-align: center;
+	vertical-align: middle;
+	color:#657585;
+}
+

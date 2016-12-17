@@ -1,0 +1,188 @@
+/*home_main,个人主页中部main*/
+.home_main{
+width: 1000px;
+height: 1000px;
+margin: 0 auto;
+}
+.home_main a{
+text-decoration:none;
+}
+.home_main a:HOVER{
+text-decoration:underline;
+}
+
+/*应用表格*/
+.use_navi{
+text-align: center;
+height: 250px;
+width: 130px;
+}
+
+.use_navi a{
+text-decoration: none;
+}
+.use_navi a:HOVER{
+text-decoration:underline;
+}
+
+
+/*左边大div*/
+.home_left{
+width: 150px;
+height: 1000px;
+
+float: left;
+}
+
+/*中间大div*/
+.home_center{
+width: 620px;
+height: 1000px;
+
+float: left;
+}
+/*用户基本信息：如头像等*/
+.user_Info{
+width: 600px;
+height: 180px;
+
+}
+.user_Info table img{
+width: 17px;
+height: 17px;
+}
+.userHead{
+width: 150px;
+height: 150px;
+float: left;
+margin-left: 30px;
+
+}
+.user_Info table{
+width: 360px;
+height: 160px;
+float: right;
+margin-top: 10px;
+margin-right: 20px;
+}
+
+
+.user_Info ul{
+	
+list-style-type: none;
+float: left;
+text-decoration: none;
+margin-left: 0px;
+
+padding-left: 0px;
+}
+
+.user_Info li{
+text-decoration: none;
+float: left;
+margin-right:30px;
+}
+.user_Info ul{
+margin-left:0PX;
+float: left;
+
+}
+.user_Info a{
+	text-decoration: none;
+	color: #3B5888;
+	margin-left: 5px;
+	}
+
+/*留言及回复div*/
+.mas_respon{
+width: 600px;
+height: 100px;
+margin-left: 30px;
+
+}
+.mas_respon table{
+width: 580px;
+height: 100px;
+}
+
+.mas_respon a:HOVER{
+background-color: #4EACB1;
+}
+/*新鲜事情*/
+.news{
+width: 580px;
+height: 50px;
+
+margin-top: 15px;
+padding-left: 30px;
+}
+/*人气之星*/
+.hot_man table ,.new_man table {
+width: 500px;
+height: 100px;
+margin-top: 15px;
+}
+.center_li{
+text-decoration: none;
+float: left;
+}
+.center_img{
+width: 55px;
+height: 55px;
+margin-right: 13px;
+}
+
+
+/*右边大div*/
+.home_right{
+width: 230px;
+height: 1000px;
+
+float: left;
+}
+
+/*最近来访*/
+.visit,.may_konw,.birthday,.online{
+width: 230px;
+height: 200px;
+margin-top: 10px;
+
+}
+.visit a,.may_konw a,.birthday a,.online a{
+	font-size: 12px;
+}
+
+.visit img,.may_konw img,.birthday img,.online img{
+width: 40px;
+height: 40px;
+margin-right: 20px;
+}
+
+.visit table,.may_konw table,.birthday table,.online table{
+padding-left: 0px;
+width: 230px;
+height: 130px;
+}
+.visit ul,.may_konw ul,.birthday ul,.online ul{
+list-style-type: none;
+float: left;
+text-decoration: none;
+margin-left: 0px;
+padding-left: 0px;
+margin-top: 0px;
+}
+.visit li,.may_konw li,.birthday li,.online li{
+float: left;
+margin-right: 11px;
+
+}
+
+.all_ul{
+list-style-type: none;
+float: left;
+text-decoration: none;
+margin-left: 0px;
+
+}
+
+
